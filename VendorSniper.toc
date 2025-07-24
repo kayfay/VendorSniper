@@ -1,0 +1,9 @@
+## Interface: 11500
+## Title: VendorSniper
+## Notes: Scans AH for vendor profit
+## Author: You
+## Version: 0.1
+## SavedVariables: VendorSniperDB
+
+core.lua
+ui.lua
