@@ -1,8 +1,8 @@
 ## Interface: 11500
 ## Title: VendorSniper
-## Notes: Scans AH for vendor profit
+## Notes: Scans AH for vendor profit - Classic WoW optimized
 ## Author: You
-## Version: 0.1
+## Version: 0.2
 ## SavedVariables: VendorSniperDB
 
 core.lua
