@@ -1,6 +1,6 @@
-# VendorSniper
+# VendorSniper - Mists of Pandaria Edition
 
-A WoW Classic addon that automatically scans the Auction House to find items that can be bought and vendored for profit, using BetterVendorPrice data.
+A WoW Classic Mists of Pandaria addon that automatically scans the Auction House to find items that can be bought and vendored for profit, using BetterVendorPrice data.
 
 ## Features
 
@@ -12,14 +12,14 @@ A WoW Classic addon that automatically scans the Auction House to find items tha
 - **Clean UI**: Integrated tab in the Auction House interface
 - **Sortable Results**: Items sorted by profit percentage (highest first)
 - **Debug Tools**: Built-in debugging commands for troubleshooting
-- **Classic WoW Optimized**: Specifically designed for Classic WoW auction house mechanics
+- **MoP Optimized**: Specifically designed for Classic Mists of Pandaria auction house mechanics
 
 ## Installation
 
 1. Download or clone this repository
-2. Extract the `VendorSniper` folder to your WoW Classic `Interface/AddOns/` directory
+2. Extract the `VendorSniper` folder to your WoW Classic MoP `Interface/AddOns/` directory
 3. Ensure you have [BetterVendorPrice](https://www.curseforge.com/wow/addons/better-vendor-price) installed for vendor price data
-4. Restart WoW Classic or reload your UI (`/reload`)
+4. Restart WoW Classic MoP or reload your UI (`/reload`)
 
 ## Usage
 
@@ -52,7 +52,15 @@ VendorSniper automatically searches for profitable vendor opportunities by:
 6. **Smart Sorting**: Displays items sorted by profit percentage
 7. **Pagination**: Automatically handles auction house pagination to scan all available items
 
-## Recent Fixes (v0.2)
+## Recent Improvements (v0.3)
+
+- **Major UI Redesign**: Centered filters, performance controls under scan button
+- **Fixed Overlap Issues**: Progress bar no longer overlaps with performance controls
+- **Better Visual Hierarchy**: Professional layout with logical grouping
+- **Enhanced UX**: Improved user flow and accessibility
+- **Clean Interface**: No unnecessary UI elements when not scanning
+
+## Previous Fixes (v0.2)
 
 - **Fixed Auction House API Issues**: Now uses Browse button activation instead of direct queries
 - **Improved Pagination**: Better handling of auction house pages and Next button navigation
@@ -68,12 +76,12 @@ The addon includes several configurable options in `core.lua`:
 - `minProfitThreshold`: Minimum profit in copper to show item (default: 1)
 - `maxItemsToShow`: Maximum items to display (default: 50)
 - `scanDelay`: Delay between pages in seconds (default: 0.5)
-- `itemsPerPage`: Items per page (Classic default: 50)
+- `itemsPerPage`: Items per page (MoP default: 50)
 
 ## Dependencies
 
 - **BetterVendorPrice**: Required for vendor price data
-- **WoW Classic**: Compatible with Classic Era and Wrath Classic
+- **WoW Classic Mists of Pandaria**: Compatible with Classic MoP
 
 ## Troubleshooting
 
@@ -107,4 +115,4 @@ This project is open source and available under the MIT License.
 
 ## Version
 
-Current Version: 0.2 
+Current Version: 0.3 - Mists of Pandaria Edition 
